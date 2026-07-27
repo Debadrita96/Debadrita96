@@ -25,7 +25,7 @@ Beyond tech, I'm an active volunteer with the **Sri Sathya Sai Seva Organisation
 ## 🔬 Current Focus
 
 - **MSc Thesis** — CT motion artifact compensation with autoregressive transformers (RandAR / LLaMAGen)
-- Evaluating image quality across PSNR, SSIM, MS-SSIM, FSIM, VIFp, LPIPS, HFEN, GMSD
+- Evaluating image quality across different quantitative and qualitative metrics
 - Exploring token ordering and rotary positional embeddings for 2D medical image generation
 
 ---
