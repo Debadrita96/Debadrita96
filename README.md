@@ -1,5 +1,7 @@
+
 <h1 align="center">Hi, I'm Debi 👋</h1>
-<h3 align="center">MSc Medical Image & Data Processing · FAU Erlangen-Nürnberg · Medical AI Researcher</h3>
+
+<h3 align="center">Applied ML Engineer · Data Science · Research Engineering · Algorithm Development</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/debadrita-mukherjee-96">
@@ -10,78 +12,187 @@
 
 ---
 
-## About Me
+## 👩‍💻 About Me
 
-I'm a master's student and ML engineer working across the full spectrum of AI — from **agentic systems and RAG pipelines** to **generative models and deployment** — with a deep specialisation in **medical imaging and clinical AI**.
+I'm an **Applied Machine Learning Engineer and Research Engineer** interested in solving technically challenging problems through **data science, machine learning, algorithm development, experimentation, and systems engineering**.
 
-My thesis investigates **motion artifact compensation in CT** using autoregressive transformer models (RandAR/LLaMAGen-style), comparing token ordering strategies (Hilbert curve vs. raster scan) and positional encoding designs (2D vs. 1D RoPE), evaluated across a comprehensive suite of image quality metrics.
+My work goes beyond simply training models. I enjoy understanding **why systems behave the way they do**, identifying bottlenecks, debugging complex pipelines, designing better algorithms, running controlled experiments, and improving models and workflows through **profiling, optimisation, validation, and rigorous error analysis**.
 
-Alongside my studies I work as a **service engineer at Med AI Solutions GmbH** and have contributed to research at University Medical Center Mainz and FAU's Pattern Recognition Lab.
+I work across the complete ML development cycle:
 
-Beyond tech, I'm an active volunteer with the **Sri Sathya Sai Seva Organisation**, contributing to community initiatives in **education, healthcare, and service to humanity** — values that shape both how I work and what I build.
+**data → experimentation → modelling → evaluation → debugging → optimisation → inference → deployment**
+
+My technical experience includes **deep learning, classical machine learning, computer vision, generative models, representation learning, 2D/3D data processing, large-scale experimentation, GPU computing, and production-oriented ML workflows**.
+
+I use modern AI-assisted development tools such as **GitHub Copilot and coding agents** as engineering accelerators for code exploration, refactoring, documentation, and debugging — while maintaining **human ownership of architecture, algorithmic decisions, validation, testing, and correctness**.
+
+My primary focus is **Applied ML, Data Science, ML Engineering, and Research Engineering**.
+
+**Medical imaging is one of my strongest application domains**, where I have worked with CT, CBCT, ultrasound, segmentation, reconstruction, detection, representation learning, and generative modelling.
 
 ---
 
-## 🔬 Current Focus
+## ⚙️ What I Like Working On
 
-- **MSc Thesis** — CT motion artifact compensation with autoregressive transformers (RandAR / LLaMAGen)
-- Evaluating image quality across different quantitative and qualitative metrics
-- Exploring token ordering and rotary positional embeddings for 2D medical image generation
+* **Applied Machine Learning & Data Science**
+* **Research Engineering**
+* **Algorithm Design & Development**
+* **Deep Learning & Computer Vision**
+* **Model Training, Fine-Tuning & Evaluation**
+* **Performance Optimisation**
+* **Inference Optimisation**
+* **Debugging Complex ML Pipelines**
+* **Error Analysis & Failure Investigation**
+* **Large-Scale Experimentation**
+* **Data & Preprocessing Pipelines**
+* **Reproducible ML Systems**
+* **GPU / HPC Computing**
+* **Research-to-Production ML**
+* **AI-Augmented Software Development**
 
 ---
 
-## 🛠️ Tech Stack
+## 💼 Industry Experience
 
-**Deep Learning & Vision**
+### Chimaera GmbH — Machine Learning / Deep Learning
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![OpenMMLab](https://img.shields.io/badge/MMDetection-00ADEF?style=flat)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+Working on technically challenging **machine learning and algorithm-development problems** involving high-resolution 3D data, with dental CBCT as the primary application domain.
 
-**AI Systems & Deployment**
+My work includes:
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Flowise](https://img.shields.io/badge/Flowise-6366f1?style=flat)
-![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat)
+* Developing and fine-tuning **3D deep learning models**
+* Building robust **data preprocessing, inference, validation, and post-processing pipelines**
+* Designing **algorithmic and rule-based methods** on top of neural-network outputs
+* Developing automated methods for extracting and analysing complex anatomical structures
+* Working with **large volumetric datasets** and memory-intensive processing pipelines
+* Investigating **GPU memory, CPU memory, preprocessing, patching, and inference bottlenecks**
+* Debugging failures across model inference, data loading, multiprocessing, preprocessing, and hardware utilisation
+* Performing **visual validation, quantitative evaluation, error analysis, and threshold optimisation**
+* Improving pipelines through **profiling, experimentation, and systematic debugging**
+* Working across both **deep learning and classical image-processing approaches**, depending on the problem
 
-**Infrastructure & Tools**
+**Technical environment:** Python · PyTorch · nnU-Net · NumPy · SimpleITK · CUDA · Linux · GPU Computing · Git
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![SLURM](https://img.shields.io/badge/HPC%20%2F%20SLURM-4A90D9?style=flat)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+> Company implementations, datasets, and internal repositories are proprietary and therefore not publicly available.
+
+---
+
+## 🔬 Research Engineering
+
+### MSc Thesis — Pattern Recognition Lab, FAU Erlangen-Nürnberg
+
+**Autoregressive Deep Learning for CT Image Restoration**
+
+My thesis explores how architectural and representation-level decisions affect the behaviour of generative image models.
+
+* Developed an **end-to-end conditional autoregressive Transformer pipeline**
+* Investigated **Hilbert-curve vs. raster token ordering**
+* Compared different **positional representation strategies**
+* Worked with **VQ-VAE representations and decoder-only Transformers**
+* Designed controlled experiments and architectural ablations
+* Built reproducible preprocessing, training, sampling, and evaluation workflows
+* Analysed model behaviour using multiple complementary quantitative metrics
+* Investigated unexpected model behaviour through **error analysis and comparative experimentation**
+* Ran large-scale experiments using **CUDA, multi-GPU infrastructure, HPC, and SLURM**
+
+This work strengthened my interest in **research engineering** — converting research questions into measurable experiments, implementing new ideas, debugging them, and extracting reliable technical conclusions.
+
+---
+
+## 🧠 Engineering Approach
+
+I enjoy engineering environments where the answer is not immediately obvious.
+
+Typical workflow:
+
+**Understand the problem → inspect the data → establish a baseline → implement → test → profile → debug → analyse failures → optimise → validate**
+
+I place particular emphasis on:
+
+* **Reproducibility**
+* **Measurable improvements**
+* **Readable and maintainable code**
+* **Validation before assumptions**
+* **Understanding failure modes**
+* **Choosing the simplest method that solves the problem reliably**
+* **Separating experimental results from assumptions**
+* **Using AI development tools without outsourcing technical judgment**
+
+---
+
+## 🤖 AI-Augmented Development
+
+I actively use modern coding assistants and AI development tools to improve engineering productivity.
+
+Typical use cases include:
+
+* Navigating unfamiliar codebases
+* Generating implementation scaffolding
+* Refactoring repetitive code
+* Investigating potential bugs
+* Comparing implementation strategies
+* Writing tests and documentation
+* Accelerating experimentation
+
+However, AI-generated suggestions are treated as **proposals, not ground truth**.
+
+I validate changes through **code inspection, testing, profiling, documentation, experimental results, and domain knowledge**.
+
+The goal is not to replace engineering reasoning, but to use AI tools to make the **research → implementation → debugging → iteration cycle faster** while maintaining technical ownership.
+
+---
+
+## 🛠️ Technical Stack
+
+### Machine Learning & Data Science
+
+**Python · PyTorch · scikit-learn · NumPy · Pandas · Statistical Analysis · Feature Engineering · Model Evaluation · Representation Learning**
+
+### Deep Learning
+
+**CNNs · Transformers · VQ-VAE · Autoregressive Models · U-Net · nnU-Net · DETR · SwinIR · Generative Models**
+
+### ML Engineering
+
+**Training Pipelines · Inference Pipelines · Model Fine-Tuning · Experiment Tracking · Model Serving · FastAPI · REST APIs · Docker · MLflow · Weights & Biases**
+
+### Optimisation & Compute
+
+**CUDA · GPU Computing · HPC · SLURM · Memory Optimisation · Profiling · Large-Scale Experimentation · ONNX · TensorRT**
+
+### Engineering
+
+**Linux · Git · Debugging · Testing · Algorithm Development · Data Pipelines · Reproducible Workflows**
+
+### AI-Assisted Engineering
+
+**GitHub Copilot · AI Coding Agents · Code Review · AI-Assisted Debugging · Human-in-the-Loop Validation**
+
+### Domain Specialisation
+
+**Medical Imaging · CT · CBCT · Ultrasound · DICOM · SimpleITK · 2D/3D Image Processing · Segmentation · Detection · Reconstruction**
 
 ---
 
 ## 📁 Selected Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| [CT Motion Artifact Compensation](https://github.com/Debadrita96) *(thesis, private)* | Autoregressive transformer models for CT image restoration; Hilbert vs. raster token ordering | PyTorch, RoPE, LLaMAGen |
-| [Coronary Stenosis Detection](https://github.com/Debadrita96/Research_project) | Comparative evaluation of Conditional DETR & Grounding DINO on ARCADE MICCAI 2023 dataset | PyTorch, MMDetection |
-| [MindMove — Healthcare ML App](https://github.com/Debadrita96/AI-Based-project-Mindmove) | ML-based application on a healthcare dataset; end-to-end from data analysis to prediction | Python, scikit-learn, Jupyter |
-| [Agentic AI Travel Chatbot](https://github.com/Debadrita96/Agentic-AI-Travel-Agent-System-Chatbot) | Multi-agent travel planning assistant with tool use, memory, and real-time retrieval | LangChain, Agentic AI |
-| [CT Reconstruction Algorithms](https://github.com/Debadrita96/CT-reconstruction) | Parallel-, fan-, and cone-beam reconstruction pipelines with quality and speed optimisation | Python, NumPy |
+| Project                                                                                                  | Engineering Focus                                                                                 | Stack                                    |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [CT Motion Artifact Compensation](https://github.com/Debadrita96) *(MSc thesis — research code private)* | Generative modelling, architectural experimentation, algorithm comparison, large-scale evaluation | PyTorch, Transformers, VQ-VAE, CUDA, HPC |
+| [Coronary Stenosis Detection](https://github.com/Debadrita96/Research_project)                           | Object detection, model benchmarking, experimental evaluation                                     | PyTorch, MMDetection, DETR               |
+| [CT Reconstruction Algorithms](https://github.com/Debadrita96/CT-reconstruction)                         | Numerical algorithms, image reconstruction, optimisation and performance evaluation               | Python, NumPy                            |
+| [MindMove — Applied ML](https://github.com/Debadrita96/AI-Based-project-Mindmove)                        | Data analysis, preprocessing, feature engineering and predictive modelling                        | Python, scikit-learn, Pandas             |
+| [AI Travel Agent System](https://github.com/Debadrita96/Agentic-AI-Travel-Agent-System-Chatbot)          | Exploration of retrieval, vector search, external tools and agent orchestration                   | LangChain, FAISS                         |
 
 ---
 
-## 📊 GitHub Stats
+## 🎯 What I'm Looking For
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Debadrita96&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debadrita96&layout=compact&theme=default&hide_border=true" height="150"/>
-</p>
+I'm particularly interested in roles involving:
 
----
+**Applied Machine Learning · Machine Learning Engineering · Data Science · Research Engineering · Deep Learning · Algorithm Development · Computer Vision · ML Optimisation**
 
-## 📬 Get in Touch
+I am most motivated by teams where I can work on **technically difficult problems**, investigate how systems behave, build and optimise algorithms, work with real datasets, and contribute across the boundary between **research and engineering**.
 
-I'm open to **PhD opportunities**, **research collaborations**, and **ML engineering roles** in medical imaging and clinical AI.
+Medical imaging is a major area of experience and specialisation for me, but I am equally interested in applying these skills to **broader machine learning and data-intensive engineering problems**.
 
-📍 Erlangen, Germany · 🌐 Open to international opportunities
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debadrita-mukherjee-96)
